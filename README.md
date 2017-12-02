@@ -1,9 +1,5 @@
 # Laravel Todo Package
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
-[![Software License][ico-license]](license.md)
-
 This package provides you with a simple tool to set up a new package and it will let you focus on the development of the package instead of the boilerplate.
 
 ## Installation
