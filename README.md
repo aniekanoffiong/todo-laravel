@@ -2,6 +2,10 @@
 
 This package provides you with a simple tool to set up a new package and it will let you focus on the development of the package instead of the boilerplate.
 
+## Demo
+
+https://http://lara-todoapp.herokuapp.com/
+
 ## Installation
 
 Via Composer
