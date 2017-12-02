@@ -1,0 +1,13 @@
+{
+    "name": "aniekanoffiong/todo-php",
+    "description": "A Resueable To-Do Functionality for Laravel Projects",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aniekan Offiong",
+            "email": "ekanoffiong@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
