@@ -4,7 +4,7 @@ This package provides you with a simple tool to set up a new package and it will
 
 ## Demo
 
-https://http://lara-todoapp.herokuapp.com/
+http://lara-todoapp.herokuapp.com/
 
 ## Installation
 
