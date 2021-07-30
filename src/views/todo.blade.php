@@ -77,7 +77,7 @@
                                     }
                                 }
                             ?>
-                            <a class="nav-item nav-link d-flex justify-content-between align-items-center @if ($category_count < 2) active @endif" data-id="category-{{ $category->id }}" id="pill-{{ kebab_case($category->name) }}-pill" data-toggle="pill" href="#pills-{{ kebab_case($category->name) }}" role="tab" aria-controls="{{ kebab_case($category->name) }}"  aria-selected="true">
+                            <a class="nav-item nav-link d-flex justify-content-between align-items-center @if ($category_count < 2) active @endif" data-id="category-{{ $category->id }}" id="pill-{{ Str::kebab($category->name) }}-pill" data-toggle="pill" href="#pills-{{ Str::kebab($category->name) }}" role="tab" aria-controls="{{ Str::kebab($category->name) }}"  aria-selected="true">
                                 <span class="category-content">{{ ucwords($category->name) }}</span> 
                                 <div><span class="badge badge-primary badge-pill">{{ $total = ($total_completed > 0) ? $total_completed : '' }}</span>
                                 <span class='fa fa-pencil text-info col-1 category-edit'></span>
@@ -92,7 +92,7 @@
                     @if ($categories->count() > 0)
                         @foreach ($categories as $category)
                             <?php $category_count1++; ?>
-                            <div class="tab-pane fade @if ($category_count1 < 2) show active @endif" data-category="category-{{ $category->id }}" id="pills-{{ kebab_case($category->name) }}" role="tabpanel" aria-labelledby="pill-{{ kebab_case($category->name) }}-pill"> 
+                            <div class="tab-pane fade @if ($category_count1 < 2) show active @endif" data-category="category-{{ $category->id }}" id="pills-{{ Str::kebab($category->name) }}" role="tabpanel" aria-labelledby="pill-{{ Str::kebab($category->name) }}-pill"> 
                                 <form action="{{ url('/todo-create') }}" method="post" class="create-todo margin-md" data-submit="">
                                     <input type="text" class="form-control new-todo" name="todo" placeholder="New Todo">
                                 </form>
