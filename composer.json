@@ -8,6 +8,18 @@
             "email": "ekanoffiong@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Ekanoffiong\\TodoLaravel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ekanoffiong\\TodoLaravel\\TodoLaravelServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
